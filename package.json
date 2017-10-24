@@ -1,0 +1,37 @@
+{
+  "name": "student-histogram",
+  "version": "0.0.1",
+  "description": "Record a sample and compute its statistical significance",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "big.js": "~5.0.3",
+    "int64-buffer": "~0.1.9",
+    "native-hdr-histogram": "~0.4.6",
+    "sample-sizer": "0.1.0"
+  },
+  "devDependencies": {
+    "fixed-number": "~1.0.0",
+    "standard": "~10.0.3",
+    "tape": "~4.8.0"
+  },
+  "keywords": [
+    "benchmark",
+    "distribution",
+    "hdr-histogram",
+    "histogram",
+    "sample",
+    "student",
+    "student-t"
+  ],
+  "engines": {
+    "node": ">=6.5.0",
+    "npm": ">=2.0.0"
+  },
+  "repository": "vweevers/student-histogram",
+  "bugs": "https://github.com/vweevers/student-histogram/issues",
+  "homepage": "https://github.com/vweevers/student-histogram"
+}
