@@ -1,14 +1,19 @@
 # student-histogram
 
-**Record a sample and compute its statistical significance.** Uses [`native-hdr-histogram`] and a two-tailed t-distribution
+**Record a sample and compute its statistical significance.** Uses [`native-hdr-histogram`][native-hdr-histogram] and a two-tailed t-distribution
 table under the hood. Good for sample sizes below 200. HDR histogram is
 designed for "value measurements in latency and performance sensitive
 applications", quantizes values with a configurable precision and has a
 constant memory footprint.
 
-[![npm status](http://img.shields.io/npm/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram) [![node](https://img.shields.io/node/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram) [![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?style=flat-square&label=travis)](http://travis-ci.org/vweevers/student-histogram) [![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?style=flat-square&label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg?style=flat-square)](https://david-dm.org/vweevers/student-histogram)
+[![npm status](http://img.shields.io/npm/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram)
+[![node](https://img.shields.io/node/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram)
+[![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?style=flat-square&label=travis)](http://travis-ci.org/vweevers/student-histogram)
+[![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?style=flat-square&label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg?style=flat-square)](https://david-dm.org/vweevers/student-histogram)
 
-## example
+## Example
 
 ```js
 const StudentHistogram = require('student-histogram')
@@ -62,13 +67,13 @@ for 99.5% confidence       : 70
 with 10% error tolerance   : 5
 ```
 
-## api
+## API
 
 ### `StudentHistogram(min, max, figures, opts)`
 
 Documentation to follow.
 
-## install
+## Install
 
 With [npm](https://npmjs.org) do:
 
@@ -76,17 +81,15 @@ With [npm](https://npmjs.org) do:
 npm install student-histogram
 ```
 
-## see also
+## See also
 
-- [`hdr-histogram-percentiles-obj`] (`student-histogram` is compatible)
+- [`hdr-histogram-percentiles-obj`][hdr-histogram-percentiles-obj] (`student-histogram` is compatible)
 
-## license
+## License
 
-[MIT] © Vincent Weevers. Based in part on [`benchmark.js`] and [`sample-sizer`]. See included [`LICENSE`] file for all copyright owners and attribution.
+[MIT](LICENSE) © 2017-present Vincent Weevers. Based in part on [`benchmark.js`][benchmark-js] and [`sample-sizer`][sample-sizer]. See included [`LICENSE`](LICENSE) file for all copyright owners.
 
-[MIT]: http://opensource.org/licenses/MIT
-[`benchmark.js`]: https://github.com/bestiejs/benchmark.js
-[`sample-sizer`]: https://github.com/mapbox/sample-sizer
-[`LICENSE`]: ./LICENSE
-[`native-hdr-histogram`]: https://github.com/mcollina/native-hdr-histogram
-[`hdr-histogram-percentiles-obj`]: https://github.com/thekemkid/hdr-histogram-percentiles-obj
+[benchmark-js]: https://github.com/bestiejs/benchmark.js
+[sample-sizer]: https://github.com/mapbox/sample-sizer
+[native-hdr-histogram]: https://github.com/mcollina/native-hdr-histogram
+[hdr-histogram-percentiles-obj]: https://github.com/thekemkid/hdr-histogram-percentiles-obj
