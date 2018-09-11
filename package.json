@@ -28,8 +28,7 @@
     "student-t"
   ],
   "engines": {
-    "node": ">=6.5.0",
-    "npm": ">=2.0.0"
+    "node": ">=6.5.0"
   },
   "repository": "vweevers/student-histogram",
   "bugs": "https://github.com/vweevers/student-histogram/issues",
