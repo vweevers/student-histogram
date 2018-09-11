@@ -8,15 +8,14 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "big.js": "~5.0.3",
-    "int64-buffer": "~0.1.9",
-    "native-hdr-histogram": "~0.4.6",
+    "big.js": "~5.1.2",
+    "int64-buffer": "~0.1.10",
+    "native-hdr-histogram": "~0.5.0",
     "sample-sizer": "0.1.0"
   },
   "devDependencies": {
-    "fixed-number": "~1.0.0",
-    "standard": "~10.0.3",
-    "tape": "~4.8.0"
+    "standard": "~12.0.1",
+    "tape": "~4.9.1"
   },
   "keywords": [
     "benchmark",
