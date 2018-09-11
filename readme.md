@@ -6,12 +6,12 @@ designed for "value measurements in latency and performance sensitive
 applications", quantizes values with a configurable precision and has a
 constant memory footprint.
 
-[![npm status](http://img.shields.io/npm/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram)
-[![node](https://img.shields.io/node/v/student-histogram.svg?style=flat-square)](https://www.npmjs.org/package/student-histogram)
-[![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?style=flat-square&label=travis)](http://travis-ci.org/vweevers/student-histogram)
-[![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?style=flat-square&label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
-[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg?style=flat-square)](https://david-dm.org/vweevers/student-histogram)
+[![npm status](http://img.shields.io/npm/v/student-histogram.svg)](https://www.npmjs.org/package/student-histogram)
+[![node](https://img.shields.io/node/v/student-histogram.svg)](https://www.npmjs.org/package/student-histogram)
+[![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?label=travis)](http://travis-ci.org/vweevers/student-histogram)
+[![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg)](https://david-dm.org/vweevers/student-histogram)
 
 ## Example
 
