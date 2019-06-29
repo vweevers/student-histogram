@@ -11,7 +11,7 @@ constant memory footprint.
 [![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?label=travis)](http://travis-ci.org/vweevers/student-histogram)
 [![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg)](https://david-dm.org/vweevers/student-histogram) [![Greenkeeper badge](https://badges.greenkeeper.io/vweevers/student-histogram.svg)](https://greenkeeper.io/)
+[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg)](https://david-dm.org/vweevers/student-histogram)
 
 ## Example
 
