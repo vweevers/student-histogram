@@ -1,6 +1,6 @@
 {
   "name": "student-histogram",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Record a sample and compute its statistical significance",
   "license": "MIT",
   "author": "Vincent Weevers",
