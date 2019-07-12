@@ -51,6 +51,7 @@ module.exports = class Histogram {
 
   // Returns the minimum or maximum recorded value.
   min () { return this[_native].min() }
+
   max () { return this[_native].max() }
 
   // Returns the value at the given percentile.
