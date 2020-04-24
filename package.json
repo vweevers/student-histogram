@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "standard": "~14.1.0",
-    "tape": "^4.10.1"
+    "tape": "^5.0.0"
   },
   "keywords": [
     "benchmark",
