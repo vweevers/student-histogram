@@ -7,6 +7,10 @@
   "scripts": {
     "test": "standard && node test.js"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "dependencies": {
     "big.js": "^6.2.1",
     "int64-buffer": "^1.0.1",

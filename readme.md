@@ -1,17 +1,11 @@
 # student-histogram
 
-**Record a sample and compute its statistical significance.** Uses [`native-hdr-histogram`][native-hdr-histogram] and a two-tailed t-distribution
-table under the hood. Good for sample sizes below 200. HDR histogram is
-designed for "value measurements in latency and performance sensitive
-applications", quantizes values with a configurable precision and has a
-constant memory footprint.
+**Record a sample and compute its statistical significance.** Uses [`native-hdr-histogram`][native-hdr-histogram] and a two-tailed t-distribution table under the hood. Good for sample sizes below 200. HDR histogram is designed for "value measurements in latency and performance sensitive applications", quantizes values with a configurable precision and has a constant memory footprint.
 
-[![npm status](http://img.shields.io/npm/v/student-histogram.svg)](https://www.npmjs.org/package/student-histogram)
-[![node](https://img.shields.io/node/v/student-histogram.svg)](https://www.npmjs.org/package/student-histogram)
-[![Travis build status](https://img.shields.io/travis/vweevers/student-histogram.svg?label=travis)](http://travis-ci.org/vweevers/student-histogram)
-[![AppVeyor build status](https://img.shields.io/appveyor/ci/vweevers/student-histogram.svg?label=appveyor)](https://ci.appveyor.com/project/vweevers/student-histogram)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Dependency status](https://img.shields.io/david/vweevers/student-histogram.svg)](https://david-dm.org/vweevers/student-histogram)
+[![npm](https://img.shields.io/npm/v/student-histogram.svg)](https://www.npmjs.com/package/student-histogram)
+[![Node version](https://img.shields.io/node/v/student-histogram.svg)](https://www.npmjs.com/package/student-histogram)
+[![Test](https://img.shields.io/github/workflow/status/vweevers/student-histogram/Test?label=test)](https://github.com/vweevers/student-histogram/actions/workflows/test.yml)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
 
 ## Example
 
