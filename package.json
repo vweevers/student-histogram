@@ -8,14 +8,14 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "big.js": "~5.2.2",
-    "int64-buffer": "~0.99.1007",
-    "native-hdr-histogram": "~0.7.0",
+    "big.js": "^6.2.1",
+    "int64-buffer": "^1.0.1",
+    "native-hdr-histogram": "^1.0.0",
     "sample-sizer": "0.1.0"
   },
   "devDependencies": {
-    "standard": "~14.1.0",
-    "tape": "^4.10.1"
+    "standard": "^17.0.0",
+    "tape": "^5.6.1"
   },
   "keywords": [
     "benchmark",
@@ -27,7 +27,7 @@
     "student-t"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=16"
   },
   "repository": "vweevers/student-histogram",
   "bugs": "https://github.com/vweevers/student-histogram/issues",
